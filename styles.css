@@ -28,10 +28,14 @@ body {
     pointer-events: none;
   }
   
+
   /* CSS */
   .button-53 {
     background-color: #3dd1e7;
-    border: 0 solid #e5e7eb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: backgroun-color 0.3 ease;
     box-sizing: border-box;
     color: #000000;
     display: flex;
